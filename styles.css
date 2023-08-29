@@ -1,0 +1,69 @@
+/* styles.css */
+
+.background-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.content {
+    background-color: rgba(250, 245, 245, 0.829); /* Example overlay color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    
+    height: 85%;
+    width: 40%;
+}
+label[for]:required{
+    content: "* ";
+    color: red;
+  }
+ #fname,#femail,#fpass,#fnum,#fdate
+ {
+    width: 40%;
+    height: 25px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    
+ }
+ h1
+ {
+    text-align: center;
+ }
+ 
+
+
+ button
+ {
+    width: 50%;
+    padding: 10px;
+    background-color: #4774a5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ .Button
+ {
+      
+       border-radius: 10px;
+       width: 100%;
+       border: none;
+       display: block;
+    align-items: center;
+    justify-content: center;
+     margin-left: 35%;
+       
+       padding: 20px;
+       width: 250px;
+        
+
+ }
